@@ -21,7 +21,7 @@ const Home = ({ isSmallScreen, links }) => {
         alignItems={"flex-end"}
         mb={5}
         sx={{
-          background: `var(--dark) ${urlToImage}`,
+          background: `#2C3E50 ${urlToImage}`,
           backgroundSize: "cover",
           backgroundBlendMode: "color-dodge",
           filter: "drop-shadow(0 2px 4px #111111cc)",
@@ -37,16 +37,16 @@ const Home = ({ isSmallScreen, links }) => {
           justifyContent={"center"}
           alignItems={"center"}
           sx={{
-            background: "rgba(255, 165, 0, 0.9)", // Orange with some transparency
+            background: "rgba(183, 110, 121, 0.9)",
             backgroundBlendMode: "multiply",
-            color: "var(--dark)",
+            color: "#F8F8FF",
           }}
         >
           <Typography
             variant="h5"
             fontFamily={"var(--font-title)"}
             fontWeight={700}
-            color={"var(--dark)"}
+            color={"#F8F8FF"}
             align="center"
           >
             Guaranteed Instant Solutions
@@ -54,17 +54,17 @@ const Home = ({ isSmallScreen, links }) => {
           <Typography
             variant="subtitle1"
             fontFamily={"var(--font-title)"}
-            color={"var(--dark)"}
+            color={"#F8F8FF"}
             align="center"
             gutterBottom
           >
-            By Shree Pandith Nagarajan
+            By Pandith Prasad Poduval
           </Typography>
           <Typography
             variant="h6"
             fontFamily={"var(--font-title)"}
             fontWeight={600}
-            color={"var(--dark)"}
+            color={"#F8F8FF"}
             align="center"
             gutterBottom
           >
@@ -75,12 +75,12 @@ const Home = ({ isSmallScreen, links }) => {
             href={`tel:${links.phone[0]}`}
             startIcon={<CallOutlined />}
             sx={{
-              color: "var(--orange)", // Text color
+              color: "#B76E79", // Text color
               borderColor: "var(--light)", // Border color
               backgroundColor: "white", // Background color set to white
               "&:hover": {
                 color: "white", // Optional hover effect
-                backgroundColor: "var(--orange)", // Optional hover effect
+                backgroundColor: "#B76E79", // Optional hover effect
                 borderColor: "var(--dark)", // Optional border color change on hover
               },
             }}
@@ -90,7 +90,7 @@ const Home = ({ isSmallScreen, links }) => {
           <Typography
             variant="body2"
             fontFamily={"cursive"}
-            color={"var(--dark)"}
+            color={"#F8F8FF"}
             mt={4}
             align="center"
             component={"a"}
@@ -105,10 +105,11 @@ const Home = ({ isSmallScreen, links }) => {
         variant="h4"
         fontFamily={"var(--font-title)"}
         fontWeight={600}
+        color={"var(--dark)"}
         align="center"
         gutterBottom
       >
-        {`India's Famous Astrologer`}
+        {`No.1 Enchantment Specialist`}
       </Typography>
       <Box
         display={"flex"}
@@ -121,7 +122,7 @@ const Home = ({ isSmallScreen, links }) => {
         <HomeCard
           imageSrc="/assets/home/1395711.webp"
           altTitle="Results"
-          mainTitle="Guaranteed results"
+          mainTitle="Vasheekarana Specialist"
           subTitle="100% results within 24 Hours"
         />
         <HomeCard
@@ -139,8 +140,8 @@ const Home = ({ isSmallScreen, links }) => {
         <HomeCard
           imageSrc="/assets/services/love_problem.webp"
           altTitle="Results"
-          mainTitle="Discount"
-          subTitle="on Female & Love problems"
+          mainTitle="Guaranteed Solution"
+          subTitle="on Relationship Problems"
         />
       </Box>
     </>

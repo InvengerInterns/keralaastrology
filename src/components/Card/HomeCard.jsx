@@ -5,7 +5,7 @@ const HomeCard = ({ imageSrc, altTitle, mainTitle, subTitle }) => {
   return (
     <Card
       sx={{
-        background: 'var(--orange)',
+        background: '#B76E79',
         color: '#FFFFFF',
         aspectRatio: 1 / 1,
         display: 'flex',
@@ -15,7 +15,7 @@ const HomeCard = ({ imageSrc, altTitle, mainTitle, subTitle }) => {
         width: '45%',
         maxWidth: 300,
         maxHeight: 300,
-        filter: 'sepia(0.7) hue-rotate(-30deg) saturate(3)',
+        filter: 'sepia(0.5) hue-rotate(-10deg) saturate(2.5)',
         transform: 'scale(1)',
         transition: 'all 0.3s ease-in',
         [`&:hover`]: {
@@ -29,7 +29,7 @@ const HomeCard = ({ imageSrc, altTitle, mainTitle, subTitle }) => {
         image={imageSrc}
         alt={altTitle}
         height={'100%'}
-        filter= { 'grayscale(1) sepia(5) hue-rotate(-1deg) saturate(4)'}
+        filter= { 'sepia(0.5) hue-rotate(-10deg) saturate(2.5)'}
         sx={{ objectFit: 'cover' }}
       />
       <CardContent

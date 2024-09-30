@@ -230,8 +230,8 @@ const ContactForm = ({ links }) => {
                 disabled={isSubmitting}
                 sx={{
                   mt: 1,
-                  background: 'var(--orange)',
-                  color: 'var(--light)',
+                  background: '#B76E79',
+                  color: '#F8F8FF',
                 }}
               >
                 {buttonText}

@@ -110,7 +110,7 @@ const CardGrid = () => {
           sx={{
             width: 'calc(100% - 1rem)',
             padding: 1,
-            background: 'var(--orange)',
+            background: '#B76E79',
             color: 'var(--light)',
             fontFamily: 'var(--font-title)',
           }}
@@ -128,7 +128,7 @@ const CardGrid = () => {
             fontFamily={'var(--font-title)'}
             fontWeight={600}
           >
-            Shree Kerala Bhagavati Jyothisyaru
+            Kerala Prasiddha Jyothisyaru
           </Typography>
           <Typography
             variant='body2'
@@ -150,7 +150,7 @@ const CardGrid = () => {
           <Card
             sx={{
               padding: 1,
-              background: 'var(--orange)',
+              background: '#B76E79',
               color: 'var(--light)',
               fontFamily: 'var(--font-title)',
               maxWidth: { sm: 'calc(70% + 1rem)' },
@@ -179,7 +179,7 @@ const CardGrid = () => {
           <Card
             sx={{
               padding: 1,
-              background: 'var(--orange)',
+              background: '#B76E79',
               color: 'var(--light)',
               fontFamily: 'var(--font-title)',
               minWidth: 'calc(15% + 1rem)',
@@ -191,13 +191,13 @@ const CardGrid = () => {
             }}
           >
             <CountUp
-              end={410}
+              end={429}
               duration={2500}
               subtitle='Founded'
             />
 
             <CountUp
-              end={10001}
+              end={1903}
               duration={2500}
               subtitle='Clients'
               symbol='+'

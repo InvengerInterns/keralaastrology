@@ -55,7 +55,7 @@ const Testimonials = ({ testimonials }) => {
           <Tab
           key={testimonial.id}
           icon={
-            <Avatar sx={{ backgroundColor: 'orange' }}>
+            <Avatar sx={{ backgroundColor: '#B76E79' }}>
               {testimonial.username.charAt(0)}
             </Avatar>
           }

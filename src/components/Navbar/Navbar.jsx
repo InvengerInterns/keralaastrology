@@ -51,25 +51,25 @@ const FloatingBar = ({ phone }) => {
       border={'1px solid var(--light)'}
       borderRight={0}
       borderRadius={'1rem 0 0 1rem'}
-      sx={{ background: '#F06105', boxShadow: '0 0 4px var(--light)' }}
+      sx={{ background: '#B76E79', boxShadow: '0 0 4px var(--light)' }}
     >
       <IconButton
         href={`https://wa.me/${phone[0]}`}
         target='_blank'
       >
-        <WhatsApp htmlColor='var(--light)' />
+        <WhatsApp htmlColor='#F8F8FF' />
       </IconButton>
       <Divider
         flexItem
         orientation='horizontal'
-        sx={{ borderColor: 'var(--light)' }}
+        sx={{ borderColor: '#F8F8FF' }}
       />
 
       <IconButton
         onClick={handleClickOpen}
         aria-label='Phone'
       >
-        <CallOutlined htmlColor='var(--light)' />
+        <CallOutlined htmlColor='#F8F8FF' />
       </IconButton>
 
       <ContactDialog
@@ -148,7 +148,7 @@ const Header = ({ links }) => {
       paddingInline={1}
       paddingBlock={0.5}
       display={'flex'}
-      backgroundColor={'var(--orange)'}
+      backgroundColor={'#B76E79'}
     >
       {/* display in mobile view only */}
       <Box
@@ -162,7 +162,7 @@ const Header = ({ links }) => {
           target='_blank'
           aria-label='location'
         >
-          <PlaceOutlined htmlColor='var(--dark)' />
+          <PlaceOutlined htmlColor='#F8F8FF' />
         </IconButton>
 
         <Divider
@@ -175,7 +175,7 @@ const Header = ({ links }) => {
           href={`mailto:${links.email}`}
           aria-label='email'
         >
-          <EmailOutlined htmlColor='var(--dark)' />
+          <EmailOutlined htmlColor='#F8F8FF' />
         </IconButton>
       </Box>
 
@@ -197,7 +197,7 @@ const Header = ({ links }) => {
             variant='caption'
             textTransform={'capitalize'}
           >
-            Kadaba, Karnataka - 574 221.
+            Udupi, Karnataka
           </Typography>
         </Button>
 
@@ -313,14 +313,14 @@ const Navbar = ({ links }) => {
               display={'flex'}
               flexDirection={'column'}
             >
-              Shree Kerala Bhagavati Jyothisyaru
+              Kerala Prasiddha Jyothisyaru
               <Typography
                 variant='caption'
                 fontFamily={'var(--font-title)'}
                 textTransform={'capitalize'}
                 component={'span'}
               >
-                Shree Pandith Nagarajan
+                Pandith Prasad Poduval
               </Typography>
             </Typography>
           </Box>

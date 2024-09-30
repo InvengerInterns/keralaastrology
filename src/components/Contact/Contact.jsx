@@ -33,14 +33,14 @@ const ContactSection = ({ Logo, isSmallScreen, links }) => {
               variant='body2'
               fontFamily={'var(--font-title)'}
             >
-             Shree Kerala Bhagavati Jyothisyaru
+             Kerala Prasiddha Jyothisyaru
             </Typography>
             <Typography
               variant='h6'
               fontFamily={'var(--font-title)'}
               gutterBottom
             >
-              Shree Pandith Nagarajan
+              Pandith Prasad Poduval
             </Typography>
             <Divider />
           </Box>
@@ -53,7 +53,7 @@ const ContactSection = ({ Logo, isSmallScreen, links }) => {
           alignItems={'flex-start'}
         >
           <iframe
-            src='https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3891.560154965484!2d75.46926599999999!3d12.742092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTLCsDQ0JzMxLjUiTiA3NcKwMjgnMDkuNCJF!5e0!3m2!1sen!2sin!4v1727007779089!5m2!1sen!2sin'
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3882.1079363285116!2d74.75043480000001!3d13.3435614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbcbb65d07a987b%3A0xe21966bcccebaa10!2sBaliga%20Arcade!5e0!3m2!1sen!2sin!4v1727655795028!5m2!1sen!2sin"
             width={'100%'}
             style={{ border: 0, aspectRatio: 4 / 3 }}
             allowFullScreen=''

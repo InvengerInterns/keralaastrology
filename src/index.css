@@ -10,7 +10,7 @@
   --dark: #111;
   --orange: #FFA500;
   --neutral-cream: #F5F5DC;
-
+  --somkey-gray: #2E2E2E;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -39,5 +39,5 @@ body {
   height: 100vh;
   height: 100svh;
 
-  background-color: gainsboro;
+  background-color: var(--light);
 }

@@ -26,8 +26,8 @@ const Footer = ({ links = {} }) => {
     <Box
       component='footer'
       sx={{
-        backgroundColor: '#F06105',
-        color: 'white',
+        backgroundColor: '#B76E79',
+        color: '#F8F8FF',
         padding: '2rem',
         mt: 'auto',
       }}
@@ -50,18 +50,18 @@ const Footer = ({ links = {} }) => {
             fontWeight={600}
             gutterBottom
           >
-            Shree Kerala Bhagavati Jyothisyaru
+            Kerala Prasiddha Jyothisyaru
           </Typography>
           <Typography
             variant='body2'
             fontFamily='var(--font-title)'
             textTransform='capitalize'
           >
-            Shree Pandith Nagarajan
+            Pandith Prasad Poduval
             <br />
-            Vaibhav Complex, Federal Bank Main Road, 
+            Near Giriyas Building Court
             <br />
-            Kadaba, Karnataka - 574 221.
+            Udupi, Karnataka
           </Typography>
         </Box>
 
